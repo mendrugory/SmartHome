@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="device">#device#</string>
+    <string name="server">#server#</string>
+    <string name="port">#port#</string>
+    <string name="root">http://#server#:#port#</string>
+    <string name="get_devices">/device/all</string>
+    <string name="status">/device/#device#/status</string>
+    <string name="on">/device/#device#/on</string>
+    <string name="off">/device/#device#/off</string>
+</resources>

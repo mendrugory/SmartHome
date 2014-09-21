@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartHomeController</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="waiting_devices_title">Waiting for Devices</string>
+    <string name="waiting_response">Waiting</string>
+    <string name="waiting">Please wait...</string>
+    <string name="server_host">192.168.1.12</string>
+    <string name="server_port">5002</string>
+    <string name="title_activity_device">DeviceActivity</string>
+
+</resources>

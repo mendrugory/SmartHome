@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mendrugory.smarthomecontroller.DeviceActivity"
+    tools:ignore="MergeRootFrame"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="DEVICE"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:id="@+id/device_name"
+        android:layout_weight = "20"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="STATUS"
+        android:id="@+id/device_status"
+        android:layout_weight="20"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="ON"
+        android:id="@+id/device_on"
+        android:layout_weight="20"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="OFF"
+        android:id="@+id/device_off"
+        android:layout_weight="20"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/frame"
+        android:layout_weight="20"/>
+
+</LinearLayout>
